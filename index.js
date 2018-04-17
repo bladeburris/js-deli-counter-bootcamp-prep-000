@@ -27,7 +27,7 @@ function currentLine() {
       var name = katzDeliLine[n]
       var position = n + 1
       lineStatus = (lineStatus + `${position}. ${name}, `)
-    return lineStatus
     }
+    return lineStatus
   }
 }
