@@ -23,7 +23,7 @@ function currentLine(array) {
   }
   else {
     var lineStatus = "The line is currently: "
-    for (n = 0; n < array.length; n++) {
+    for (var n = 0; n < array.length; n++) {
       var name = array[n]
       var position = n + 1
       lineStatus = (lineStatus + `${position}. ${name}, `)
