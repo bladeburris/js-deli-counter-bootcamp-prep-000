@@ -22,7 +22,7 @@ function currentLine(array) {
     return "The line is currently empty."
   }
   else {
-    lineStatus = "The line is currently: "
+    var lineStatus = "The line is currently: "
     for (n = 0; n < array.length; n++) {
       var name = array[n]
       var position = n + 1
