@@ -12,7 +12,7 @@ function nowServing(array) {
   }
   else {
     var beingServed = array[0]
-    array.unshift(beingServed)
+    array.shift(beingServed)
     return `Currently serving ${beingServed}.`
   }
 }
