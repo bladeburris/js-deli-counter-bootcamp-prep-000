@@ -22,7 +22,7 @@ function currentLine() {
     return "The line is currently empty."
   }
   else {
-    var n = 0
+    for ()
     
   }
 }
