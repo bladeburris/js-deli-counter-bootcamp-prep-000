@@ -28,7 +28,7 @@ function currentLine() {
       var position = n + 1
       lineStatus = (lineStatus + `${position}. ${name}`)
     }
-    lineStatus
+    lineStatus = str
     return lineStatus
   }
 }
