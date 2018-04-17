@@ -17,14 +17,14 @@ function nowServing(array) {
   }
 }
 
-function currentLine() {
-  if (katzDeliLine.length === 0) {
+function currentLine(array) {
+  if (array.length === 0) {
     return "The line is currently empty."
   }
   else {
     lineStatus = "The line is currently: "
-    for (n = 0; n < katzDeliLine.length; n++) {
-      var name = katzDeliLine[n]
+    for (n = 0; n < array.length; n++) {
+      var name = array[n]
       var position = n + 1
       lineStatus = (lineStatus + `${position}. ${name}, `)
     }
