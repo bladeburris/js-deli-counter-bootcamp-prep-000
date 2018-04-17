@@ -22,7 +22,7 @@ function currentLine() {
     return "The line is currently empty."
   }
   else {
-    for (n = 0; )
+    for (n = 0; n < katzDeliLine.length; )
     
   }
 }
